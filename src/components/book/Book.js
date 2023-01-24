@@ -31,6 +31,12 @@ function Book({
             <p>ISBN: {isbn}</p>
             <p>Published {publishedDate}</p>
             <p>{totalPages} pages</p>
+            <p>
+              <Link to="/books">
+                {' '}
+                <b>BACK TO CATALOG</b>
+              </Link>
+            </p>
           </>
         )}
       </article>
